@@ -1,0 +1,101 @@
+/* Full-page container */
+.budget-tracker-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #f0f7ff, #ffffff); /* Light blue gradient */
+  }
+  
+  /* Budget Tracker Box */
+  .budget-tracker {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .budget-tracker h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Input section */
+  .budget-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .budget-inputs input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s;
+  }
+  
+  .budget-inputs input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Add Expense Button */
+  .add-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .add-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Expense List */
+  .expense-list {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: transform 0.2s;
+  }
+  
+  .expense-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background: #cc0000;
+  }
+  

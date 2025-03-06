@@ -1,0 +1,104 @@
+/* Full-page container */
+.investment-tracker-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #e3f2fd, #ffffff); /* Lightest blue gradient */
+  }
+  
+  /* Investment Tracker Box */
+  .investment-tracker {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .investment-tracker h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Input section */
+  .investment-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .investment-inputs input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s;
+  }
+  
+  .investment-inputs input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Add Investment Button */
+  .add-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .add-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Investment List */
+  .investment-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Investment Item */
+  .investment-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1 1 calc(50% - 10px);
+    text-align: left;
+    font-size: 16px;
+    transition: transform 0.2s;
+  }
+  
+  .investment-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background: #cc0000;
+  }
+  

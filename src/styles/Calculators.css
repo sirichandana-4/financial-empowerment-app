@@ -1,0 +1,86 @@
+/* 📊 Main Container */
+.calculators-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+    min-height: 100vh;
+  }
+  
+  /* 📌 Header */
+  .calculators-container h2 {
+    font-size: 28px;
+    color: #0056b3;
+  }
+  
+  .calculators-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* 🔢 Grid Layout */
+  .calculators-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  /* 📝 Calculator Card */
+  .calculator-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .calculator-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .calculator-card h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  /* 🖋️ Input Fields */
+  .calculator-card input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* 🎯 Calculate Button */
+  .calculator-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .calculator-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 💰 Result Text */
+  .calculator-card p {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
