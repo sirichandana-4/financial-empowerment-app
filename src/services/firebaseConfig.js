@@ -5,12 +5,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your Firebase Config
 const firebaseConfig = {
-  apiKey: "AIzaSyDvybQBqNycGwctNZnAz71Mn00LSL8qKEg",
-  authDomain: "financial-empowerment-ap-3770d.firebaseapp.com",
-  projectId: "financial-empowerment-ap-3770d",
-  storageBucket: "financial-empowerment-ap-3770d.firebasestorage.app",
-  messagingSenderId: "186113929593",
-  appId:"G-9XGTQKW82R"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_authDomain",
+  projectId: "YOUR_projectId",
+  storageBucket: "YOUR_storageBucket",
+  messagingSenderId: "YOUR_messagingSenderId",
+  appId:"YOUR_appId"
 };
 
 const app = initializeApp(firebaseConfig);
